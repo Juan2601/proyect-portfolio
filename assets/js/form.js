@@ -27,8 +27,8 @@ document.addEventListener('DOMContentLoaded', function () {
     e.preventDefault();
 
 
-    const serviceID = 'service_7hh0jlg';
-    const templateID = 'template_jtsq46o';
+    const serviceID = 'service_o288f7v';
+    const templateID = 'template_fv3e5sf';
 
     emailjs.sendForm(serviceID, templateID, form)
       .then(() => {
